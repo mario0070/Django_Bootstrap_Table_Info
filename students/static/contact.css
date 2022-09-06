@@ -1,0 +1,8 @@
+body{
+    transition: .5s;
+}
+
+main{
+    margin-left: 8em;
+    transition: .5s;
+}

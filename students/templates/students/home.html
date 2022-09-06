@@ -1,0 +1,44 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="{%static 'style.css' %}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <nav>
+        <span id="btn">Menu</span>
+        <a href="{%url 'create'%}" > <span id="btn">Create Form</span></a>
+    </nav>
+
+
+    <div class="links" id="links">
+        <span id="home"></span><a href="">Home</a></span>
+        <span id="table">Table</span>
+        <span id="contact">Contact</span>
+        <span id="about">About</span>
+        <span id="messages">Messages</span>
+        <span id="logout">Sign out</span>
+    </div>
+
+
+
+    <main>
+    
+        <main id="main">
+            <h2>welcome ,<i> Click on the "Table" to View </i> , you can also <i>"Create"</i> , <i>"Update"</i>
+             and <i>"Delete"</i></h2>
+            
+        </main>
+
+    </main>
+
+    <script src="{%static 'script.js' %}"></script>
+</body>
+</html>

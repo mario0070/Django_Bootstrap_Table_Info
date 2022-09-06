@@ -1,0 +1,32 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{%static 'delete.css'%}">
+</head>
+<body>
+
+    <nav>
+        <span id="btn">Menu</span>
+        <a href="{%url 'create'%}" > <span id="btn">Create</span></a>
+    </nav>
+
+<main>
+
+    <form method="POST">
+        {%csrf_token%}
+        <h1>Are You Sure ?</h1>
+        <button>Delete</button>
+        <a href="{%url 'home'%}">Cancel</a>
+    </form>
+
+</main>
+    
+</body>
+</html>
+
+   

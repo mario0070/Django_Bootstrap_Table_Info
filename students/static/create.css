@@ -1,0 +1,149 @@
+nav{
+    padding: 1em;
+    background-color: rgb(0, 157, 255);
+    border-bottom:4px solid rgba(0, 0, 0, 0.199) ;
+}
+
+nav span{
+    color: white;
+    font-weight: 900;
+    background-color: black;
+    padding: .4em;
+    border-radius: .4em;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.links{
+    transition: .5s;
+    position: fixed;
+    background-color:  rgb(0, 157, 255); ;
+    height: 100vh;
+    width: 7em;
+    z-index: 10;
+    border-right:4px solid rgba(0, 0, 0, 0.199) ;
+    
+}
+
+.links #home{
+    margin-top: -2em;
+}
+
+.links #table{
+    margin-top: 1em;
+}
+
+#main{
+    transition: .5s;
+    margin-left: 8em;
+    line-height: 25px;
+    margin-top: 1em;
+}
+
+
+.links span{
+    display: block;
+    padding: 1.2em;
+    color: white;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: .3s;
+}
+
+.links span:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    color: black;
+    font-weight: 900;
+    transition: .3s;
+}
+
+.links a{
+    color: black;
+    font-size: 2em;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: .2em;
+    border-bottom: 2px solid black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin: 2em;
+}
+
+
+
+
+
+
+body{
+    transition: .5s;
+}
+
+main{
+    margin-top: 5em;
+    margin-left: 8em;
+    transition: .5s;
+}
+
+input{
+    display: block;
+    width: 21em;
+    border: 1px solid grey ;
+    border-radius: .5em;
+    padding: .4em;
+    margin-bottom: .6em;
+}
+
+label{
+    display: block;
+}
+
+form{
+    background-color: rgba(0, 157, 255, 0.349);
+    margin-top: 4em;
+    border: 2px solid grey;
+    width: 30em;
+    padding: 3em;
+    margin-left: 17em;
+    border-radius: .8em;
+    
+}
+
+select{
+    margin-bottom: 2.2em;
+    width: 9em;
+    border: 1px solid grey;
+    border-radius: .2em;
+    color: rgb(0, 157, 255);
+    padding: .3em;
+    display: block;
+}
+
+button{
+    border: none;
+    background-color: rgb(0, 157, 255);;
+    border-radius: .4em;
+    width: 7em;
+    padding: .3em;
+    font-weight: 900;
+    color: white;
+    margin-left: 5em;
+    
+}
+
+form a{
+    border: none;
+    background-color: red;
+    border-radius: .4em;
+    width: 7em;
+    padding: .3em;
+    font-weight: 900;
+    color: white;
+    
+}
